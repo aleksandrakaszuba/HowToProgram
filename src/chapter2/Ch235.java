@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 /**
  * Created by ola on 8/22/17.
+ * How it works P&H Deitel
+ * Exercise 2.35
  * Car pool Saving calculator
  */
 public class Ch235 {
     void carpoolCalc() {
-
 
         Scanner s = new Scanner(System.in);
         System.out.println("Enter miles per day:");
