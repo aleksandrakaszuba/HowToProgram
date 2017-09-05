@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 
 public class Ch530_GlobalWarmingQuiz {
-    int numberOfQuestions = 5;
+    private int numberOfQuestions = 5;
 
     private String q1 = "How are humans making greenhouse gases of our own?\n" +
             "1 - burning fossil fuels in our cars\n" +
@@ -143,7 +143,7 @@ public class Ch530_GlobalWarmingQuiz {
         System.out.printf("Your results: %d ot of %d.\n %s\n", totalResult, numberOfQuestions, messageAboutResults(totalResult));
     }
 
-    void playQuiz() {
+    public void playQuiz() {
         Scanner s = new Scanner(System.in);
         int answer;
         int totalResult = 0;
